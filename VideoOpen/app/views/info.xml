@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container">
+		<View id="vwContenedor">
+			<View id="vwContenido">
+				<Label id="titulo"></Label>
+				<View id="ivlogotipo"></View>
+				<ScrollView id="svTexto">
+					<Label id="descripcion"></Label>
+				</ScrollView>
+			</View>
+		</View>
+		<View id="vwBotonera">
+			<View class="contenedorBoton" id="vwContenedorBotonLlamar">
+				<Button id="btLlamar" class="botonBotonera"></Button>
+			</View>
+			<View class="contenedorBoton" id="vwContenedorBotonEmail">
+				<Button id="btEmail" class="botonBotonera"></Button>
+			</View>
+			<View class="contenedorBoton" id="vwContenedorBotonWeb">
+				<Button id="btWeb" class="botonBotonera"></Button>
+			</View>
+				
+		</View>
+	</Window>
+</Alloy>

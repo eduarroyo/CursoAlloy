@@ -1,5 +1,15 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+	<TabGroup class="container">
+		<Tab id="tabInfo" title="Info" icon="">
+			<Window></Window>
+		</Tab>
+			
+		<Tab id="tabPeliculas" title="Peliculas" icon="">
+			<Window></Window>
+		</Tab>
+		
+		<Tab id="tabOtra">
+			<Window></Window>
+		</Tab>
+	</TabGroup>
 </Alloy>

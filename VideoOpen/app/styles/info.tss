@@ -1,0 +1,84 @@
+".container" : {
+	title: "Información"
+},
+
+"#vwContenedor": {
+	width: "100%",
+	bottom: 60,
+	height: Ti.UI.FILL,
+	backgroundColor: "green"
+},
+
+"#vwContenido": {
+	layout: "vertical",
+	bottom: 10,
+	height: Ti.UI.FILL,
+	width: "90%",
+	backgroundColor: "white"
+},
+
+"#titulo": {
+	center: true,
+	height: 60,
+	text: "VideoOpen",
+	font: { 
+		fontSize: 36,
+		fontWeight: "bold"
+	},
+	backgroundColor: "red"
+},
+
+"#ivlogotipo": {
+	backgroundColor: "blue",
+	height: 150
+},
+
+"#descripcion": {
+	height: Ti.UI.FILL,
+	text: "ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja."
+},
+
+"#vwBotonera": {
+	bottom: 0,
+	height: 60,
+	width: "100%",
+	layout: "horizontal"
+},
+
+".contenedorBoton": {
+	width: "33%",
+	height: "100%"
+},
+
+".botonBotonera": {
+	center: true,
+	top: 5,
+	height: "50"
+},
+
+"#vwContenedorBotonLlamar": {
+	backgroundColor: "#555"
+},
+
+"#btLlamar": {
+	title: "Llamar",
+	backgroundColor: "red"
+},
+
+"#vwContenedorBotonEmail": {
+	backgroundColor: "000"
+},
+
+"#btEmail": {
+	title: "Email",
+	backgroundColor: "orange",
+},
+
+"#vwContenedorBotonWeb": {
+	backgroundColor: "#555"
+},
+
+"#btWeb": {
+	title: "Web",
+	backgroundColor: "blue"
+},

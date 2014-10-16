@@ -1,5 +1,2 @@
-function doClick(e) {
-    alert($.label.text);
-}
-
+$.tabInfo.window = Alloy.createController("info").getView();
 $.index.open();
