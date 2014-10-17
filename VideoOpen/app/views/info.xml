@@ -10,13 +10,13 @@
 			</View>
 		</View>
 		<View id="vwBotonera">
-			<View class="contenedorBoton" id="vwContenedorBotonLlamar">
+			<View class="contenedorBoton">
 				<Button id="btLlamar" class="botonBotonera" onClick="llamar"></Button>
 			</View>
-			<View class="contenedorBoton" id="vwContenedorBotonEmail">
+			<View class="contenedorBoton">
 				<Button id="btEmail" class="botonBotonera" onClick="componerEmail"></Button>
 			</View>
-			<View class="contenedorBoton" id="vwContenedorBotonWeb">
+			<View class="contenedorBoton">
 				<Button id="btWeb" class="botonBotonera" onClick="navegarWeb"></Button>
 			</View>
 		</View>

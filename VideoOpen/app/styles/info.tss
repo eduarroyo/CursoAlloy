@@ -4,7 +4,7 @@
 
 "#vwContenedor": {
 	width: "100%",
-	bottom: 74,
+	bottom: 60,
 	height: Ti.UI.FILL,
 	//backgroundColor: "green"
 },
@@ -25,7 +25,7 @@
 		fontSize: 36,
 		fontWeight: "bold"
 	},
-	//backgroundColor: "red"
+	color: "black"
 },
 
 "#ivlogotipo": {
@@ -35,55 +35,37 @@
 
 "#descripcion": {
 	height: Ti.UI.FILL,
+	color: "black",
 	text: "ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja ñlkasj dñfalkjs ñlkajsdñ lfjañskl fañlkfjñaj fñaklsñ flajñdsflkaj ñslkfjañjfña lsdvñaljns vasehfa oshelasdnvñ asehf ashf ñaljsd ñaljsdhfñ asefpaohsd fajshdf ñaouhsef ñajsdñ faouweh faoushf añjs ñfajhf uahs ñfja."
 },
 
 "#vwBotonera": {
 	bottom: 0,
-	height: 74,
+	height: 60,
 	width: "100%",
 	layout: "horizontal"
 },
 
 ".contenedorBoton": {
 	width: "33.2%",
-	height: 64,
+	height: 50,
 	bottom: 5
 },
 
 ".botonBotonera": {
-	//backgroundColor: "transparent",
 	center: true,
-	height: 64,
-	width: 64
-},
-
-"#vwContenedorBotonLlamar": {
-	backgroundColor: "#555"
+	height: 50,
+	width: 50
 },
 
 "#btLlamar": {
-	image: "/images/phone-128.png",
-	//title: "Llamar",
-	backgroundColor: "red"
-},
-
-"#vwContenedorBotonEmail": {
-	backgroundColor: "#000"
+	backgroundImage: "/images/phone-128.png"
 },
 
 "#btEmail": {
-	image: "/images/mail-128.png",
-	//title: "Email",
-	backgroundColor: "orange",
-},
-
-"#vwContenedorBotonWeb": {
-	backgroundColor: "#555"
+	backgroundImage: "/images/mail-128.png"
 },
 
 "#btWeb": {
-	image: "/images/globe-128.png",
-	//title: "Web",
-	backgroundColor: "blue"
+	backgroundImage: "/images/globe-128.png"
 },
