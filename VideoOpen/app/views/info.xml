@@ -3,23 +3,22 @@
 		<View id="vwContenedor">
 			<View id="vwContenido">
 				<Label id="titulo"></Label>
-				<View id="ivlogotipo"></View>
-				<ScrollView id="svTexto">
+				<ImageView id="ivlogotipo"></ImageView>
+				<ScrollView>
 					<Label id="descripcion"></Label>
 				</ScrollView>
 			</View>
 		</View>
 		<View id="vwBotonera">
 			<View class="contenedorBoton" id="vwContenedorBotonLlamar">
-				<Button id="btLlamar" class="botonBotonera"></Button>
+				<Button id="btLlamar" class="botonBotonera" onClick="llamar"></Button>
 			</View>
 			<View class="contenedorBoton" id="vwContenedorBotonEmail">
-				<Button id="btEmail" class="botonBotonera"></Button>
+				<Button id="btEmail" class="botonBotonera" onClick="componerEmail"></Button>
 			</View>
 			<View class="contenedorBoton" id="vwContenedorBotonWeb">
-				<Button id="btWeb" class="botonBotonera"></Button>
+				<Button id="btWeb" class="botonBotonera" onClick="navegarWeb"></Button>
 			</View>
-				
 		</View>
 	</Window>
 </Alloy>

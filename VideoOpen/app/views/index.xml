@@ -1,10 +1,10 @@
 <Alloy>
 	<TabGroup class="container">
-		<Tab id="tabInfo" title="Info" icon="">
+		<Tab id="tabInfo" title="Info">
 			<Window></Window>
 		</Tab>
 			
-		<Tab id="tabPeliculas" title="Peliculas" icon="">
+		<Tab id="tabPeliculas" title="Peliculas">
 			<Window></Window>
 		</Tab>
 		

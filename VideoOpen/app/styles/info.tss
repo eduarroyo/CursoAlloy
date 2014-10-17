@@ -4,9 +4,9 @@
 
 "#vwContenedor": {
 	width: "100%",
-	bottom: 60,
+	bottom: 74,
 	height: Ti.UI.FILL,
-	backgroundColor: "green"
+	//backgroundColor: "green"
 },
 
 "#vwContenido": {
@@ -14,7 +14,7 @@
 	bottom: 10,
 	height: Ti.UI.FILL,
 	width: "90%",
-	backgroundColor: "white"
+	//backgroundColor: "white"
 },
 
 "#titulo": {
@@ -25,11 +25,11 @@
 		fontSize: 36,
 		fontWeight: "bold"
 	},
-	backgroundColor: "red"
+	//backgroundColor: "red"
 },
 
 "#ivlogotipo": {
-	backgroundColor: "blue",
+	image: "/images/logo.jpg",
 	height: 150
 },
 
@@ -40,20 +40,22 @@
 
 "#vwBotonera": {
 	bottom: 0,
-	height: 60,
+	height: 74,
 	width: "100%",
 	layout: "horizontal"
 },
 
 ".contenedorBoton": {
-	width: "33%",
-	height: "100%"
+	width: "33.2%",
+	height: 64,
+	bottom: 5
 },
 
 ".botonBotonera": {
+	//backgroundColor: "transparent",
 	center: true,
-	top: 5,
-	height: "50"
+	height: 64,
+	width: 64
 },
 
 "#vwContenedorBotonLlamar": {
@@ -61,16 +63,18 @@
 },
 
 "#btLlamar": {
-	title: "Llamar",
+	image: "/images/phone-128.png",
+	//title: "Llamar",
 	backgroundColor: "red"
 },
 
 "#vwContenedorBotonEmail": {
-	backgroundColor: "000"
+	backgroundColor: "#000"
 },
 
 "#btEmail": {
-	title: "Email",
+	image: "/images/mail-128.png",
+	//title: "Email",
 	backgroundColor: "orange",
 },
 
@@ -79,6 +83,7 @@
 },
 
 "#btWeb": {
-	title: "Web",
+	image: "/images/globe-128.png",
+	//title: "Web",
 	backgroundColor: "blue"
 },
