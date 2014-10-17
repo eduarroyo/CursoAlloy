@@ -3,10 +3,13 @@ var args = arguments[0] || {};
 function buscar() {
 	var txtBuscar = $.sbBuscar.value.trim();
 	if(txtBuscar !== '') {
+		$.tvPeliculas.visible = false;
 		$.aiEspera.show();
+		$.tvPeliculas.data = [];
 		var cliente = new (require("filmClient")).filmClient();
 		var data = [];
-		$.tvPeliculas.data = [];
+		
+		
 		cliente.getCine(txtBuscar, function(lista) {
 			if(lista === -1) {
 				alert("Error al cargar las películas");
@@ -17,8 +20,10 @@ function buscar() {
 				
 				$.tvPeliculas.data = data;
 			}
+			
+			$.aiEspera.hide();
+			$.tvPeliculas.visible = true;
 		});
-		$.aiEspera.hide();
 	}
 }
 

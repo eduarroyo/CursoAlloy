@@ -1,7 +1,7 @@
 <Alloy>
 	<Window class="container">
-		<ActivityIndicator id="aiEspera" />
 		<SearchBar id="sbBuscar" onReturn="buscar" />
+		<ActivityIndicator id="aiEspera" />
 		<TableView id="tvPeliculas" onClick="mostrarDetalles"/>
 	</Window>
 </Alloy>
