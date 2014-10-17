@@ -1,0 +1,17 @@
+".container" : {
+	backgroundColor: "white"
+},
+
+"#poster": {
+	left: 5,
+	width: 45,
+	height: 45,
+	borderRadius: 10
+},
+
+"#titulo": {
+	left: 60,
+	textAlign: 'left',
+	font: {fontSize: 12},
+	color: "black"
+}
