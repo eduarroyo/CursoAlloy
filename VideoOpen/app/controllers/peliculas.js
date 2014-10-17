@@ -3,6 +3,7 @@ var args = arguments[0] || {};
 function buscar() {
 	var txtBuscar = $.sbBuscar.value.trim();
 	if(txtBuscar !== '') {
+		$.aiEspera.show();
 		var cliente = new (require("filmClient")).filmClient();
 		var data = [];
 		$.tvPeliculas.data = [];
@@ -11,12 +12,13 @@ function buscar() {
 				alert("Error al cargar las películas");
 			} else {
 				for(var i = 0; i < lista.movies.length; i++) {
-					data[i] = Alloy.createController('fila', { info: lista.movies[i] }).getView();
+					data[i] = Alloy.createController('fila', { info: lista.movies[i], fila: i }).getView();
 				}
 				
 				$.tvPeliculas.data = data;
 			}
 		});
+		$.aiEspera.hide();
 	}
 }
 

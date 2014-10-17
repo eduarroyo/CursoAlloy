@@ -7,3 +7,4 @@ function cerrar() {
 $.poster.image = args.datos.posters.original;
 $.titulo.text = args.datos.title;
 $.year.text = args.datos.year;
+$.sinopsis.text = args.datos.synopsis;

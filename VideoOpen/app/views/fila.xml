@@ -1,6 +1,9 @@
 <Alloy>
 	<TableViewRow class="container" id="fila">
-		<ImageView id="poster"/>
-		<Label id="titulo"/>
+		<View id="contenido">
+			<ImageView id="poster"/>
+			<Label id="titulo"/>
+		</View>
+		<Button id="btIMDB" onClick="navegarIMDB" />
 	</TableViewRow>
 </Alloy>

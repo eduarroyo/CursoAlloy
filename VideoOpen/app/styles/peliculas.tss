@@ -6,11 +6,17 @@
 "#sbBuscar": {
 	height: 43,
 	barColor: "white",
-	showCancel: "true"
+	showCancel: "true",
+	textColor: "black"
 },
 
 "#tvPeliculas": {
-	minRowHeight: 50,
-	maxRowHeight: 50,
+	minRowHeight: 60,
+	maxRowHeight: 60,
 	height: Ti.UI.FILL
+},
+
+"#aiEspera": {
+	fullscreen: true,
+	message: "Cargando películas. Espere, por favor."
 }

@@ -1,8 +1,13 @@
 <Alloy>
 	<Window class="container" id="win">
+		<View id="contenido">
 		<ImageView id="poster" />
-		<Label id="titulo" />
-		<Label id="year" />
+			<Label id="titulo" />
+			<Label id="year" />
+			<ScrollView id="svSinopsis">
+				<Label id="sinopsis"/>
+			</ScrollView>
+		</View>
 		<Button id="btCerrar" onClick="cerrar" />
 	</Window>
 </Alloy>
