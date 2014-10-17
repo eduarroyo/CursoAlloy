@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" id="win">
+		<ImageView id="poster" />
+		<Label id="titulo" />
+		<Label id="year" />
+		<Button id="btCerrar" onClick="cerrar" />
+	</Window>
+</Alloy>

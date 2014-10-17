@@ -11,7 +11,6 @@ function buscar() {
 				alert("Error al cargar las películas");
 			} else {
 				for(var i = 0; i < lista.movies.length; i++) {
-					//Ti.API.info(lista.movies[p].title);
 					data[i] = Alloy.createController('fila', { info: lista.movies[i] }).getView();
 				}
 				
@@ -19,4 +18,10 @@ function buscar() {
 			}
 		});
 	}
+}
+
+function mostrarDetalles(e) {
+	var datos = (OS_IOS) ? e.rowData.datos : e.row.datos ;
+	var vwDetalles = Alloy.createController('detalles', { datos: datos }).getView();
+	vwDetalles.open({animated: true});
 }

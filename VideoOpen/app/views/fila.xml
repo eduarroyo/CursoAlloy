@@ -1,5 +1,5 @@
 <Alloy>
-	<TableViewRow class="container">
+	<TableViewRow class="container" id="fila">
 		<ImageView id="poster"/>
 		<Label id="titulo"/>
 	</TableViewRow>

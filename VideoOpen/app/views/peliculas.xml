@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
 		<SearchBar id="sbBuscar" onReturn="buscar" />
-		<TableView id="tvPeliculas" />
+		<TableView id="tvPeliculas" onClick="mostrarDetalles"/>
 	</Window>
 </Alloy>

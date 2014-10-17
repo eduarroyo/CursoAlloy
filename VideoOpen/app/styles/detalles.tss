@@ -1,0 +1,30 @@
+".container" : {
+	modal: true,
+	backgroundColor: "white",
+	layout: "vertical"
+},
+
+"#poster": {
+	top: 40,
+	height: 80,
+	borderRadius: 10
+},
+
+"#titulo": {
+	top: 5,
+	textAlign: "center",
+	font: {fontSize: 14},
+	color: "black"
+},
+
+"#year": {
+	top: 5, textAlign: "center",
+	font: {
+		fontSize: 12
+	},
+	color: 'black'
+}
+,
+"#btCerrar": {
+	title: "Cerrar"
+}
