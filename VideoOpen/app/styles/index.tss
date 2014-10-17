@@ -3,11 +3,13 @@
 },
 
 "#tabInfo": {
-	title: "Información"
+	title: "Información",
+	icon: "/images/info-32.png"
 },
 
 "#tabPeliculas": {
-	title: "Películas"
+	title: "Películas",
+	icon: "/images/search-32.png"
 },
 
 "#tabOtra": {

@@ -1,0 +1,16 @@
+".container" : {
+  title: "Películas",
+  layout: "vertical"
+},
+
+"#sbBuscar": {
+	height: 43,
+	barColor: "white",
+	showCancel: "true"
+},
+
+"#tvPeliculas": {
+	minRowHeight: 50,
+	maxRowHeight: 50,
+	height: Ti.UI.FILL
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<SearchBar id="sbBuscar" onReturn="buscar" />
+		<TableView id="tvPeliculas" />
+	</Window>
+</Alloy>
