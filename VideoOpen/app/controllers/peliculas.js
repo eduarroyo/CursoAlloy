@@ -43,6 +43,6 @@ function mostrarDetalles(datos) {
 }
 
 function navegarIMDB(datos) {
-	var urlIMDB = 'http://www.imdb.com/title/' + datos.alternate_ids.imdb.toString();
+	var urlIMDB = 'http://www.imdb.com/title/tt' + datos.alternate_ids.imdb.toString();
 	Ti.Platform.openURL(urlIMDB);
 }
