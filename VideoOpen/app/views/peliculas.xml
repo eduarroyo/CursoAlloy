@@ -2,6 +2,6 @@
 	<Window class="container">
 		<SearchBar id="sbBuscar" onReturn="buscar" />
 		<ActivityIndicator id="aiEspera" />
-		<TableView id="tvPeliculas" onClick="mostrarDetalles"/>
+		<TableView id="tvPeliculas" onClick="clickFila"/>
 	</Window>
 </Alloy>

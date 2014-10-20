@@ -4,6 +4,6 @@
 			<ImageView id="poster"/>
 			<Label id="titulo"/>
 		</View>
-		<Button id="btIMDB" onClick="navegarIMDB" />
+		<Button id="btIMDB" />
 	</TableViewRow>
 </Alloy>

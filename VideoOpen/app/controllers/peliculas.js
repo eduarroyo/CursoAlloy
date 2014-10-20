@@ -27,8 +27,22 @@ function buscar() {
 	}
 }
 
-function mostrarDetalles(e) {
+function clickFila(e) {
 	var datos = (OS_IOS) ? e.rowData.datos : e.row.datos ;
+	if(e.source.id === "btIMDB") {
+		navegarIMDB(datos);
+	} else {
+		mostrarDetalles(datos);
+	}
+	
+}
+
+function mostrarDetalles(datos) {
 	var vwDetalles = Alloy.createController('detalles', { datos: datos }).getView();
 	vwDetalles.open({animated: true});
+}
+
+function navegarIMDB(datos) {
+	var urlIMDB = 'http://www.imdb.com/title/' + datos.alternate_ids.imdb.toString();
+	Ti.Platform.openURL(urlIMDB);
 }
